@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/SignUp</title>
+    <link rel="stylesheet" href="Login2.css">
+</head>
+<body>
+    <div class="container" >
+    <form action="">
+        <h1 class="main_heading" >Login/SignUp</h1>
+        <h2>Contact Information</h2>
+        <p>Name: * <input type="text" name="Name" required > </p>
+        <fieldset>
+            <legend>Gender * </legend>
+        <p>
+            Male: <input type="radio" name="Gender" id="Male" required >Female <input type="radio" name="Gender" id="Female" required>
+        </p>
+    </fieldset>
+    <p>Address: * <textarea name="Address" id="Address" cols="100" rows="8"required ></textarea></p>
+    <p>Email: * <input type="Email" name="Email" id="Email"required > </p>
+    <p>Pincode: * <input type="number" name="Pincode" id="Pincode" required > </p>
+    <h2>Other Information</h2>
+    <p>Select class: *
+     <select name="select class" id="select class" required >
+     <option value="">--Select Class--</option>
+     <option value="CSE">CSE</option>
+     <option value="CSIT">CSIT</option>
+     <option value="IT">IT</option>
+     <option value="CS-IOT">CS-IOT</option>
+    
+     </select>
+     <P>
+       </P>
+       Enrollment No: *<input type="Enrollment No" name="Enrollment No" id="Enrollment No" required >
+    </p>
+    <p>
+        Date of Birth: *<input type="date" name="Date of birth" id="Date of birth" required >
+    </p>
+    <input type="Submit" value="Submit" >
+    </form>
+</div>
+</body>
+</html>
